@@ -1,0 +1,18 @@
+algoritmo "TabuadaSimples"
+
+var
+  numero: inteiro
+  i: inteiro
+  resultado: inteiro
+
+inicio
+  escreval("Digite um número para ver a tabuada:")
+  leia(numero)
+
+  escreval("Tabuada do ", numero)
+  para i de 1 ate 10 faca
+    resultado <- numero * i
+    escreval(numero, " x ", i, " = ", resultado)
+  fimpara
+
+fimalgoritmo
