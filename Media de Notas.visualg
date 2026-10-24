@@ -1,0 +1,22 @@
+algoritmo "MediaDeNotas"
+
+funcao calcularMedia(n1: real, n2: real, n3: real): real
+  inicio
+    retorne (n1 + n2 + n3) / 3 // Calcula a média e devolve o valor
+fimfuncao
+
+var
+  nota1, nota2, nota3: real
+  media: real
+
+inicio
+  escreval("Digite a primeira nota:")
+  leia(nota1)
+  escreval("Digite a segunda nota:")
+  leia(nota2)
+  escreval("Digite a terceira nota:")
+  leia(nota3)
+
+  media <- calcularMedia(nota1, nota2, nota3)
+  escreval("A média das notas foi: ", media)
+fimalgoritmo

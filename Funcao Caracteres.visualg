@@ -1,0 +1,15 @@
+algoritmo "funcoesCaractereFrase"
+
+var
+  frase: caractere
+
+inicio
+  frase <- "Programar e Divertido"
+
+  escreval("Frase original: ", frase)
+  escreval("Primeira palavra: ", copia(frase, 1, 9))
+  escreval("Quantidade de caracteres: ", compr(frase))
+  escreval("Frase em maiúsculas: ", maiusc(frase))
+  escreval("Frase em minúsculas: ", minusc(frase))
+  escreval("Posição de 'Div': ", pos("Div", frase))
+fimalgoritmo
